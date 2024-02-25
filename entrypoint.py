@@ -19,6 +19,7 @@ if __name__ == "__main__" :
     output1 = "Hello"
     output2 = "World"
 
+
     # This is how you produce workflow outputs.
     # Make sure corresponds to output variable names in action.yml
     if "GITHUB_OUTPUT" in os.environ :
